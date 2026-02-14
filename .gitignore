@@ -1,9 +1,8 @@
 # Exclude all notebook files
 *.ipynb
 
-# Large model files (should be downloaded separately)
-*.pth
-*.pkl
+# Large feature cache (not needed for app, regenerate from notebook)
+flickr30k_features.pkl
 
 # Python cache
 __pycache__/
