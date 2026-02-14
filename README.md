@@ -2,10 +2,6 @@
 
 A deep learning project that generates natural language descriptions for images using a Sequence-to-Sequence (Seq2Seq) architecture with PyTorch.
 
-**Author:** Muneeb Arif  
-**Email:** muneebarif226@gmail.com  
-**GitHub:** [muneeb-codehub](https://github.com/muneeb-codehub)
-
 ## 🎯 Project Overview
 
 This project implements an end-to-end image captioning system that:
@@ -119,7 +115,7 @@ Both are semantically correct, but metrics penalize lexical variations. **Semant
 
 ## 🎨 Streamlit App Features
 
-- **Beautiful gradient UI** with glassmorphism effects
+- **Gradient UI** with glassmorphism effects
 - **Dual inference methods**: Greedy Search (faster) and Beam Search (better quality)
 - **Real-time caption generation**
 - **Responsive design** with smooth animations
@@ -152,9 +148,9 @@ Instead of training CNN alongside RNN (computationally expensive), we:
 3. Use cached features during caption training
 
 This approach is:
-- ✅ Much faster
-- ✅ Requires less GPU memory
-- ✅ Industry standard practice
+- Much faster
+- Requires less GPU memory
+- Industry standard practice
 
 ### Inference Methods
 
@@ -184,28 +180,11 @@ This project demonstrates:
 - Image Captioning: "Show and Tell: A Neural Image Caption Generator" (Vinyals et al., 2015)
 - Dataset: Flickr30k (31,783 images with 158,915 captions)
 
-## 🤝 Contributing
-
-This is an academic project. Contributions, issues, and feature requests are welcome!
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📧 Contact
 
 **Muneeb Arif**  
 📧 Email: muneebarif226@gmail.com  
 🔗 GitHub: [@muneeb-codehub](https://github.com/muneeb-codehub)  
-📊 Repository: [Gen-Ai-Assignment-Neural-Storyteller](https://github.com/muneeb-codehub/Gen-Ai-Assignment-Neural-Storyteller-Image-Captioning-using-CNN-LSTM-Seq2Seq-Architecture)
 
-## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-**Built with ❤️ using PyTorch and Streamlit**  
 *Generative AI Assignment - Image Captioning with CNN-LSTM Seq2Seq Architecture*
